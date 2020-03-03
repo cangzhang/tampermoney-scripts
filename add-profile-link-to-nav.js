@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Add profile link to nav.
+// @name         Github.com: Add profile link to nav.
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Add profile link to nav bar.
 // @author       Al Cheung
 // @match        *://github.com/*
