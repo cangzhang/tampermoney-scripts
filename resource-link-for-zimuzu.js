@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         ZIMUZU.TV 下载资源链接 ZIMUZU.TV DIRECT DOWNLOAD LINK
+// @name         字幕组/人人影视 下载资源链接 ZIMUZU.TV/RRYS.TV DIRECT DOWNLOAD LINK
 // @namespace    https://greasyfork.org/zh-CN/scripts/34778
-// @version      0.8
+// @version      0.8.1
 // @description  Bring download link back on resource detail page, plz login before go to download page.
 // @author       Al Cheung
 // @match        http*://www.zimuzu.tv/resource/*
