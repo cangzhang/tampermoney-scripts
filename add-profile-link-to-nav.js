@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Github.com: Add profile link to nav.
-// @namespace    http://tampermonkey.net/
+// @namespace    https://greasyfork.org/zh-CN/scripts/397263
 // @version      0.2
 // @description  Add profile link to nav bar.
 // @author       Al Cheung
