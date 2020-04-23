@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Github.com: Add profile link to nav.
 // @namespace    https://greasyfork.org/zh-CN/scripts/397263
-// @version      0.2
+// @version      0.3
 // @description  Add profile link to nav bar.
 // @author       Al Cheung
 // @match        *://github.com/*
