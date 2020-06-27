@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         [Bilibili.com] Auto disable danmu
-// @namespace    http://tampermonkey.net/
+// @namespace    https://greasyfork.org/zh-CN/scripts/406134
 // @version      0.1
 // @description  Auto disable danmu layer for Bilibili.com.
 // @author       Al Cheung
