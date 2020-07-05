@@ -19,6 +19,7 @@
 
         if (target && target.click) {
             target.checked && target.click();
+            document.querySelector(`.bilibili-player-video-web-fullscreen`).click();
             clearInterval(task)
         }
 
