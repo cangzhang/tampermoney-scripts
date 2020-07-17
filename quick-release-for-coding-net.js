@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Create & copy release content for coding project.
 // @namespace    https://greasyfork.org/zh-CN/scripts/395451
-// @version      1.5
+// @version      1.6
 // @description  Make your release real quick!
 // @author       You
 // @match        https://*.coding.net/p/*/d/*/git/compare/*
@@ -67,9 +67,9 @@ ${target}
 
 # 测试链接
 
-http://e.coding.testing-1-corp.coding.io/signin?buffet=${target}
-http://e.staging-corp.coding.io/signin?buffet=${target}
-https://e.coding.net/signin?buffet=${target}
+http://codingcorp.coding.testing-1-corp.coding.io/?buffet=${target}
+http://codingcorp.staging-corp.coding.io/?buffet=${target}
+https://codingcorp.coding.net/?buffet=${target}
 
 
 `;
