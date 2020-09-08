@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Create & copy release content for coding project.
 // @namespace    https://greasyfork.org/zh-CN/scripts/395451
-// @version      1.6
+// @version      1.7
 // @description  Make your release real quick!
 // @author       You
 // @match        https://*.coding.net/p/*/d/*/git/compare/*
