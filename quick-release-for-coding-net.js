@@ -129,7 +129,7 @@ https://codingcorp.coding.net/?buffet=${target}
 z-index: 100;
 position: absolute;
 right: 30px;
-top: 80px;
+top: 50px;
 display: inline-block;
 border: none;
 padding: 1rem 2rem;
