@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Create & copy release content for coding project.
 // @namespace    https://greasyfork.org/zh-CN/scripts/395451
-// @version      1.7
+// @version      1.8
 // @description  Make your release real quick!
 // @author       You
 // @match        https://*.coding.net/p/*/d/*/git/compare/*
@@ -128,8 +128,8 @@ https://codingcorp.coding.net/?buffet=${target}
     const style = `button#create-copy-release-btn {
 z-index: 100;
 position: absolute;
-right: 30px;
-top: 50px;
+right: 200px;
+top: 46px;
 display: inline-block;
 border: none;
 padding: 1rem 2rem;
