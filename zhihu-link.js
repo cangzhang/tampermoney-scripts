@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Open zhihu link directly 直接打开知乎链接
 // @namespace    https://github.com/cangzhang/tampermoney-scripts
-// @version      0.2
+// @version      0.3
 // @description  跳过中转页面, 直接打开知乎链接
 // @author       alcheung
 // @match        https://www.zhihu.com/*
@@ -36,10 +36,14 @@
       let targetUrl;
       switch (el.tagName) {
         case `SPAN`: {
+          let anchor;
           if (el.className.includes(`visible`)) {
-            const anchor = el.parentNode;
-            targetUrl = getTarget(anchor.href, ev);
+            anchor = el.closest(`a.external`);
+          } else if (el.className.includes(`LinkCard`)) {
+            anchor = el.closest(`a.LinkCard`);
           }
+
+          targetUrl = getTarget(anchor.href, ev);
           break;
         }
         case `A`: {
