@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Open zhihu link directly 直接打开知乎链接
 // @namespace    https://github.com/cangzhang/tampermoney-scripts
-// @version      0.1
+// @version      0.2
 // @description  跳过中转页面, 直接打开知乎链接
 // @author       alcheung
 // @match        https://www.zhihu.com/*
+// @match        https://zhuanlan.zhihu.com/*
 // @icon         https://www.google.com/s2/favicons?domain=greasyfork.org
 // @grant        none
 // ==/UserScript==
