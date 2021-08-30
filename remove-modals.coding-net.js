@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Remove fucking modals 移除 coding.net 强制弹窗
 // @namespace    https://github.com/cangzhang/tampermoney-scripts
-// @version      0.4
+// @version      0.5
 // @description  remove all modals that are showed when visiting coding.net
 // @author       alcheung
 // @match        *://*.coding.net/*
