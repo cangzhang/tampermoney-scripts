@@ -6,6 +6,7 @@
 // @author       alcheung
 // @match        *://*.coding.net/*
 // @match        *://*.coding.com/*
+// @match        *://*.coding.io/*
 // @grant        none
 // ==/UserScript==
 
