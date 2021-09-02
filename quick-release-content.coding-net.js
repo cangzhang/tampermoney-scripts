@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Create & copy release content for coding project.
 // @namespace    https://greasyfork.org/zh-CN/scripts/395451
-// @version      1.8
+// @version      1.9.0
 // @description  Make your release real quick!
 // @author       You
 // @match        https://*.coding.net/p/*/d/*/git/compare/*
+// @match        https://*.codingcorp.net/p/*/d/*/git/compare/*
 // @grant        GM_setClipboard
 // @grant        GM_notification
 // @grant        GM_addStyle
@@ -75,7 +76,7 @@ https://codingcorp.coding.net/?buffet=${target}
 `;
 
     const getCompareResult = (source, target, depot, project, corp) =>
-        fetch(`https://${corp}.coding.net/api/user/${corp}/project/${project}/depot/${depot}/git/compare_v2?source=${source}&target=${target}&w=&prefix=`);
+        fetch(`/api/user/${corp}/project/${project}/depot/${depot}/git/compare_v2?source=${source}&target=${target}&w=&prefix=`);
 
     const getMRId = url => {
         const match = url.match(/\d+(\/)?$/) || [];
@@ -91,14 +92,13 @@ https://codingcorp.coding.net/?buffet=${target}
             throw new Error(`failed to parse url.`);
         }
 
-        const corp = host.replace('.coding.net', '');
         const [project, depot] = match[1].split(`/d/`);
 
         return [
             ...match.slice(-2),
             depot || project,
             project,
-            corp,
+            window.location.host.split('.').shift(),
         ];
     }
 
