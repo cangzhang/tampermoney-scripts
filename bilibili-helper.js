@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         [Bilibili] my helper
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.2.1
 // @description  Control video play speed with your keyboard
 // @author       alcheung<cangzan@gmail.com>
 // @match        https://www.bilibili.com/video/*
@@ -24,7 +24,7 @@
     const Steps = [0.5, 0.75, 1, 1.25, 1.5, 2, 3];
     const toast = window.Toastify({
         text: '1x',
-        duration: 2500,
+        duration: 1500,
         position: 'center',
         className: 'b-toast'
     });
