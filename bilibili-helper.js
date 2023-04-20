@@ -24,7 +24,7 @@
     const Steps = [0.5, 0.75, 1, 1.25, 1.5, 2, 3];
     const toast = window.Toastify({
         text: '1x',
-        duration: 250000000,
+        duration: 2500,
         position: 'center',
         className: 'b-toast'
     });
