@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         [Bilibili] my helper
 // @namespace    http://tampermonkey.net/
-// @version      0.2.1
+// @version      0.2.2
 // @description  Control video play speed with your keyboard
 // @author       alcheung<cangzan@gmail.com>
 // @match        https://www.bilibili.com/video/*
@@ -36,7 +36,7 @@
             return;
         }
 
-        let video = document.querySelector('video');
+        let video = document.querySelector('bwp-video');
         let current = +(video.playbackRate);
         if (!Steps.includes(current)) {
             video.playbackRate = 1;
